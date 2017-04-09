@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:700);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+* {
+    
+}
+
+body {
+    background-color: #9bbe5b;
+    min-width: 550px;
+}
+
+.oxygen {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.openSans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dosis {
+    font-family: 'Dosis', sans-serif;
+}
+
+.selector-button {
+    outline: none;
+    border: 1px solid #6441a5;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #432b6e;
+    color: white;
+    font-size: 14px;
+}
+
+.selector-button:hover {
+    background-color: #000;
+}
+
+.arrow-pointer:after {
+    width: 0;
+    height: 0;
+    position: relative;
+    content:"";
+    display:block;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #fff;
+    left: 45px;
+}
+
+.link-to-twitch {
+    text-decoration: none;
+}
+
+.streamer-wrapper {
+    height: 70px;
+    background-color: #432b6e;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+}
+
+.streamer-wrapper:hover {
+    background-color: #221637;
+}
+
+/*
+.streamer-container {
+    padding: 10px;
+    display: flex;
+}
+*/
+
+.streamer-image {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 20%;
+    margin: 10px 0px 10px 10px;
+    display: flex;
+    background-color: ;
+}
+
+.main-image {
+    
+}
+
+.channel-text {
+    margin-left: 15px;
+    display: inline;
+}
+
+.streamer-text {
+    font-size: 18px;
+    margin: 5px 10px 0px 0px;
+    color: white;
+    text-align: center;
+    background-color: ;
+}
+
+.description-text {
+    font-size: 11px;
+    color: white;
+    width: 170px;
+    text-align: center;
+    margin: 0px 10px 10px 0px;
+    background-color: ;
+}
+
+.is-streaming-logo {
+    font-size: 1.5em;
+    position: relative;
+    margin: auto 0px auto 5px;
+}
+
+.x-icon {
+    color: #b30000;
+}
+
+.play-icon {
+    color: #00994d;
+}
+
+#header-container {
+    width: 550px;
+    height: auto;
+    border-radius: 6px;
+    background-color: #6441a5;
+    margin: 0px auto;
+}
+
+#header {
+    
+}
+
+#header-text {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-area {
+    
+}
+
+#main-area-wrapper {
+    width: 360px;
+    margin: 0px auto 20px auto;
+    background-color: #6441a5;
+    box-shadow: 5px 5px 5px #73923a;
+}
+
+#selector-toggle {
+    display: flex;
+    width: inherit;
+    margin: 0px auto;
+}
+
+#all-button {
+    
+}
+
+#online-button {
+    
+}
+
+#offline-button {
+    
+}
+
+#search-area {
+    background-color: #221637;
+    width: 320px;
+    margin: 10px auto -20px auto;
+    border-radius: 10px;
+    
+}
+
+#search-box {
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #432b6e;
+    color: white;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+
+#streamer-list {
+    padding: 20px;
+}
